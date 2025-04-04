@@ -5,14 +5,14 @@ import { Link, Redirect } from "expo-router";
 
 const App = () => {
   // return <Redirect href="/home" />;
-  return <Redirect href="/tabs" />;
+  // return <Redirect href="/tabs" />;
+  return <Redirect href="/drawer" />;
 
   // <SafeAreaView>
   //   <View className="mt-6 mx-2.5">
   //     <Text className="text-5xl " style={{ fontFamily: "WorkSans-Black" }}>
   //       Hola mundo
   //     </Text>
-
   //     <Text className="text-4xl font-work-black text-primary">
   //       Hola mundo
   //     </Text>
@@ -25,7 +25,6 @@ const App = () => {
   //     <Text className="text-2xl font-work-medium text-tertiary">
   //       Hola mundo
   //     </Text>
-
   //     <Link href="/products">Productos</Link>
   //   </View>
   // </SafeAreaView>
