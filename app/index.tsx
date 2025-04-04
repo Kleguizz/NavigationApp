@@ -4,7 +4,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Link, Redirect } from "expo-router";
 
 const App = () => {
-  return <Redirect href="/home" />;
+  // return <Redirect href="/home" />;
+  return <Redirect href="/tabs" />;
 
   // <SafeAreaView>
   //   <View className="mt-6 mx-2.5">
