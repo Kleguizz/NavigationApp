@@ -7,7 +7,7 @@ const StackLayout = () => {
 
   const onHeaderLeftClick = (canGoBack: boolean) => {
     if (canGoBack) {
-      navigation.dispatch(StackActions.pop());
+      router.back();
       return;
     }
 
